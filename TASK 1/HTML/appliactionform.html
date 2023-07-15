@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Application Form</title>
+  </head>
+  <body>
+    <article>
+      <h1>01.Application Form</h1>
+      <section>
+        <form action="">
+          <p>
+            <label for="name">Name:</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Enter your name"
+              required
+            />
+          </p>
+          <p>
+            <label for="email">Email:</label>
+            <input
+              type="text"
+              id="email"
+              name="email"
+              placeholder="Enter your email"
+              required
+            />
+          </p>
+          <p>
+            <label>Gender</label>
+            <input type="radio" name="gender" value="Male" required />
+            <label for="Male">Male</label>
+            <input type="radio" name="gender" value="Female" required />
+            <label for="Female">Female</label>
+          </p>
+          <p>
+            <label>CHOOSE SKILLS</label>
+            <br /><br />
+
+            <label for="html">HTML</label>
+            <input type="checkbox" id="html" name="skills" required />
+            <label for="css">CSS</label>
+            <input type="checkbox" id="css" name="skills" required />
+            <label for="js">JS</label>
+            <input type="checkbox" id="js" name="skills" required />
+            <label for="bootstrap">Bootstrap</label>
+            <input type="checkbox" id="bootstrap" name="skills" required />
+            <label for="react">React</label>
+            <input type="checkbox" id="react" name="skills" required />
+          </p>
+          <p>
+            <label>JOB TYPE</label>
+            <select name="language">
+              <option value="frontend developer">FRONT END DEVELOPER</option>
+              <option value="backend developer">BACK END DEVELOPER</option>
+              <option value="fullstack developer">FULLSTACK DEVELOPER</option>
+            </select>
+          </p>
+          <p>
+            <label for="browser">Choose your browser from the list:</label>
+            <input type="text" id="browser" name="browser" required />
+          </p>
+          <p>
+            <textarea name="summary" id="summary" cols="30" rows="3">
+Give a brief summary about you</textarea
+            >
+          </p>
+          <p><button type="submit">submit</button></p>
+        </form>
+      </section>
+    </article>
+  </body>
+</html>

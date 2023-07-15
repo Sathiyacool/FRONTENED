@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Sathiyaseelan" />
+    <title>Forms,List,Course</title>
+  </head>
+  <body>
+    <article>
+      <section class="one">
+        <h2>01.Application Form</h2>
+        <form>
+          <p>
+            <label for="name">Name:</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Enter your name"
+              required
+            />
+          </p>
+          <p>
+            <label for="email">Email:</label>
+            <input
+              type="text"
+              id="email"
+              name="email"
+              placeholder="Enter your email"
+              required
+            />
+          </p>
+          <p>
+            <label>Gender</label>
+            <input type="radio" name="gender" value="Male" required />
+            <label for="Male">Male</label>
+            <input type="radio" name="gender" value="Female" required />
+            <label for="Female">Female</label>
+          </p>
+          <p>
+            <label>CHOOSE SKILLS</label>
+            <br /><br />
+
+            <label for="html">HTML</label>
+            <input type="checkbox" id="html" name="skills" required />
+            <label for="css">CSS</label>
+            <input type="checkbox" id="css" name="skills" required />
+            <label for="js">JS</label>
+            <input type="checkbox" id="js" name="skills" required />
+            <label for="bootstrap">Bootstrap</label>
+            <input type="checkbox" id="bootstrap" name="skills" required />
+            <label for="react">React</label>
+            <input type="checkbox" id="react" name="skills" required />
+          </p>
+          <p>
+            <label>JOB TYPE</label>
+            <select name="language">
+              <option value="frontend developer">FRONT END DEVELOPER</option>
+              <option value="backend developer">BACK END DEVELOPER</option>
+              <option value="fullstack developer">FULLSTACK DEVELOPER</option>
+            </select>
+          </p>
+          <p>
+            <label for="browser">Choose your browser from the list:</label>
+            <input type="text" id="browser" name="browser" required />
+          </p>
+          <p>
+            <textarea name="summary" id="summary" cols="30" rows="3">
+Give a brief summary about you</textarea
+            >
+          </p>
+          <p><button type="submit">submit</button></p>
+        </form>
+      </section>
+      <section class="second">
+        <h2>02.Batch List</h2>
+        <p>SENCHOLA UNIVERSITY</p>
+        <ol type="1">
+          <li>First Batch</li>
+          <br />
+          <ol type="A">
+            <li>Ravi</li>
+            <br />
+            <li>Manol</li>
+            <br />
+            <li>Sandhiya</li>
+            <br />
+          </ol>
+          <li>Second Batch</li>
+          <br />
+          <ol type="I">
+            <li>Sundar</li>
+            <br />
+            <li>Saranya</li>
+            <br />
+            <li>Nandhini</li>
+            <br />
+          </ol>
+          <li>Third Batch</li>
+          <br />
+          <ol type="i">
+            <li>Monika</li>
+            <br />
+            <li>Santhosh</li>
+            <br />
+            <li>Kannan</li>
+            <br />
+          </ol>
+        </ol>
+      </section>
+      <section class="third">
+        <h2>03.TABLE</h2>
+        <table border="1px solid black">
+          <thead>
+            <tr>
+              <th>S.NO 1</th>
+              <th>S.NO 2</th>
+              <th>S.NO 3</th>
+              <th>S.NO 4</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td rowspan="2">REACT JS</td>
+              <td>HTML</td>
+              <td rowspan="2">REACT JS</td>
+              <td>CSS</td>
+            </tr>
+            <tr>
+              <td>CSS</td>
+              <td>HTML</td>
+            </tr>
+            <tr>
+              <td colspan="2">JAVASCRIPT</td>
+              <td colspan="2">BOOTSTRAP</td>
+            </tr>
+          </tbody>
+          <tfooter></tfooter>
+        </table>
+      </section>
+    </article>
+  </body>
+</html>
