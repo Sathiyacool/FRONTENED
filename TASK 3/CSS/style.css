@@ -1,0 +1,28 @@
+body{
+    background-color:black;
+    padding-bottom: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.about{
+    background-color: white;
+    padding: 25px;
+}
+.about1{
+    background-color: White;
+    padding-top: 50px;
+    padding-bottom: 7px;
+    padding-left: 50px;
+    padding-right: 7px;
+}
+.card-title{
+    font-weight: bolder;
+}
+.card-model{
+    transition: all 0.3s;
+    color: black;
+}
+.card-model:hover{
+    transform: scale(1.15);
+    background-color: black;
+    color: white;
+}
