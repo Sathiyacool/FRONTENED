@@ -1,0 +1,80 @@
+html,
+body{
+   margin: 0;
+   font-family: 'Poppins', sans-serif;
+   /* background: blueviolet; */
+   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(202,96,205,1) 52%, rgba(0,212,255,1) 100%);
+   font-weight: bolder;
+   font-family: 'Courier New', Courier, monospace;
+}
+
+#wrapper h2{
+    display:flex;
+    justify-content: center;
+    
+}
+
+h2{
+    color:black;
+    letter-spacing: 1px;
+}
+input{
+    border-radius: 5px;
+    border: 2px solid black ;
+    margin-top:30px;
+    margin-left: 25px;
+    height:2.5em;
+    width:250px;
+    padding-left:10px;
+
+}
+
+input:active{
+    border:none;
+}
+#wrapper{
+    min-width:400px;
+    width:500px;
+    margin:200px auto;
+    background-color:#ffffff;
+    border-radius:10px;
+    padding:30px;
+}
+
+button{
+    margin-top:0px;
+    margin-left: 75px;
+    background-color:black;
+    color: #ffffff;
+    border-radius: 4px;
+    height: 44px;
+    font-weight: 600;
+    padding: 0 30px;
+    letter-spacing: 1px;
+    border: none;
+    color: #102770;
+}
+
+button:hover{
+    cursor:pointer;
+    background-color: blueviolet;
+    color: whitesmoke;
+
+}
+#todoList{
+    color:black;
+    font-size:28px;  
+    margin-top: 0;
+    margin-top: 20px;
+
+}
+
+#todoList p{
+  margin-top: 0;
+  margin-left: 25px;
+
+}
+
+#todoList p:hover{
+  cursor: pointer;
+}
