@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal - www.codingnepalweb.com -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Filterable Image Gallery</title>
+    <!--  CSS -->
+    <link rel="stylesheet" href="/CSS/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- filter Items -->
+      <nav>
+        <div class="items">
+          <span class="item active" data-name="all">All</span>
+          <span class="item" data-name="shoe">Shoe</span>
+          <span class="item" data-name="watch">Watch</span>
+          <span class="item" data-name="camera">Camera</span>
+          <span class="item" data-name="laptop">Laptop</span>
+        </div>
+      </nav>
+      <!-- filter Images -->
+      <div class="gallery">
+        <div class="image" data-name="camera">
+          <span><img src="/IMAGES/camera-4.jpg" alt="" /></span>
+        </div>
+        <div class="image" data-name="shoe">
+          <span><img src="/IMAGES/shoe-1.jpg" alt="" /></span>
+        </div>
+        <div class="image" data-name="watch">
+          <span><img src="/IMAGES/watch-1.jpg" alt="" /></span>
+        </div>
+        <div class="image" data-name="laptop">
+          <span><img src="/IMAGES/laptop-1.jpg" alt="" /></span>
+        </div>
+        <div class="image" data-name="camera">
+          <span><img src="/IMAGES/camera-1.webp" alt="" /></span>
+        </div>
+        <div class="image" data-name="camera">
+          <span><img src="/IMAGES/camera-2.webp" alt="" /></span>
+        </div>
+
+        <div class="image" data-name="shoe">
+          <span><img src="/IMAGES/shoe-2.jpg" alt="" /></span>
+        </div>
+        <div class="image" data-name="camera">
+          <span><img src="/IMAGES/camera-3.webp" alt="" /></span>
+        </div>
+        <div class="image" data-name="shoe">
+          <span><img src="/IMAGES/shoe-3.jpg" alt="" /></span>
+        </div>
+        <div class="image" data-name="laptop">
+          <span><img src="/IMAGES/laptop-4.jpg" alt="" /></span>
+        </div>
+        <div class="image" data-name="shoe">
+          <span><img src="/IMAGES/shoe-4.jpg" alt="" /></span>
+        </div>
+        <div class="image" data-name="watch">
+          <span><img src="/IMAGES/watch-2.jpg" alt="" /></span>
+        </div>
+        <div class="image" data-name="watch">
+          <span><img src="../IMAGES/watch-3.webp" alt="" /></span>
+        </div>
+
+        <div class="image" data-name="watch">
+          <span><img src="/IMAGES/watch-4.webp" alt="" /></span>
+        </div>
+
+        <div class="image" data-name="laptop">
+          <span><img src="/IMAGES/laptop-2.jpg" alt="" /></span>
+        </div>
+        <div class="image" data-name="laptop">
+          <span><img src="/IMAGES/laptop-3.jpg" alt="" /></span>
+        </div>
+      </div>
+    </div>
+    <!-- fullscreen img preview box -->
+    <div class="preview-box">
+      <div class="details">
+        <span class="title"
+          >Image Category:
+          <p></p
+        ></span>
+        <span class="icon fas fa-times"></span>
+      </div>
+      <div class="image-box"><img src="" alt="" /></div>
+    </div>
+    <div class="shadow"></div>
+    <!-- JS -->
+    <script src="/JS/script.js"></script>
+  </body>
+</html>
